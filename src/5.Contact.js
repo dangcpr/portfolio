@@ -31,7 +31,7 @@ function Contact() {
             {CV({})}
             <div className="ContactInfo" data-aos="fade-up" data-aos-duration="1200">
                 <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>Email: <a style={{color: "white"}}href='mailto:haidangchuprong@gmail.com'>haidangchuprong@gmail.com</a></p>
-                <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>Facebook: <a style={{color: "white"}}href='https://facebook.com/haidangchuprong'>https://facebook.com/haidangchuprong</a></p>
+                <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>Facebook: <a style={{color: "white"}}href='https://facebook.com/dangcpr'>https://facebook.com/dangcpr</a></p>
                 <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>Calendly: <a style={{color: "white"}}href='https://calendly.com/dangcpr/45min'>https://calendly.com/dangcpr/45min</a></p>
                 <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>Giờ hành chính: 07:30 - 17:00 hằng ngày</p>
                 <p style={{fontSize: "18px", letterSpacing: "1.8px"}}>(Gửi email và tin nhắn vào giờ này để được phản hồi nhanh nhất)</p>
