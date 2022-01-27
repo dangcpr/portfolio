@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5322f624.chunk.css",
-    "main.js": "/static/js/main.781a297a.chunk.js",
-    "main.js.map": "/static/js/main.781a297a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.799c1a85.js",
-    "runtime-main.js.map": "/static/js/runtime-main.799c1a85.js.map",
-    "static/js/2.4db9457b.chunk.js": "/static/js/2.4db9457b.chunk.js",
-    "static/js/2.4db9457b.chunk.js.map": "/static/js/2.4db9457b.chunk.js.map",
-    "static/js/3.4b220fd4.chunk.js": "/static/js/3.4b220fd4.chunk.js",
-    "static/js/3.4b220fd4.chunk.js.map": "/static/js/3.4b220fd4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5322f624.chunk.css.map": "/static/css/main.5322f624.chunk.css.map",
-    "static/js/2.4db9457b.chunk.js.LICENSE.txt": "/static/js/2.4db9457b.chunk.js.LICENSE.txt",
-    "static/media/Cover-fb.b70331f2.jpg": "/static/media/Cover-fb.b70331f2.jpg",
-    "static/media/App.css": "/static/media/LogoDang.bed54229.png",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/portfolio/static/css/main.c32f992e.chunk.css",
+    "main.js": "/portfolio/static/js/main.781a297a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.781a297a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4519c172.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4519c172.js.map",
+    "static/js/2.4db9457b.chunk.js": "/portfolio/static/js/2.4db9457b.chunk.js",
+    "static/js/2.4db9457b.chunk.js.map": "/portfolio/static/js/2.4db9457b.chunk.js.map",
+    "static/js/3.4b220fd4.chunk.js": "/portfolio/static/js/3.4b220fd4.chunk.js",
+    "static/js/3.4b220fd4.chunk.js.map": "/portfolio/static/js/3.4b220fd4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.c32f992e.chunk.css.map": "/portfolio/static/css/main.c32f992e.chunk.css.map",
+    "static/js/2.4db9457b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4db9457b.chunk.js.LICENSE.txt",
+    "static/media/Cover-fb.b70331f2.jpg": "/portfolio/static/media/Cover-fb.b70331f2.jpg",
+    "static/media/App.css": "/portfolio/static/media/LogoDang.bed54229.png",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.799c1a85.js",
+    "static/js/runtime-main.4519c172.js",
     "static/js/2.4db9457b.chunk.js",
-    "static/css/main.5322f624.chunk.css",
+    "static/css/main.c32f992e.chunk.css",
     "static/js/main.781a297a.chunk.js"
   ]
 }

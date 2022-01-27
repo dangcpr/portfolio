@@ -1,6 +1,33 @@
-body, html {
+html {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth
+}
+body {
+  background-image: url("Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #61dafb;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00aada;
 }
 .App {
   text-align: center;
@@ -41,15 +68,6 @@ body, html {
   }
 }
 
-.Bar {
-  list-style-type: none;
-  display: flex;
-}
-.Bar li {
-  display: block;
-  color: red;
-  padding: 8px 16px;
-}
 .background {
   background-image: url("LogoDang.png");
   background-color: #cccccc;
@@ -57,7 +75,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
+  background-attachment: fixed;
 }
 .CMS {
   /*opacity: 0.5;*/
@@ -69,4 +87,257 @@ body, html {
   text-align: center;
   top: 50%;
   left: 40%;
+}
+.Block {
+  display: flex;
+  box-shadow: 2px 0px 2px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index:1
+}
+.Menu {
+  text-align: right;
+  z-index:1
+}
+.Menu a {
+  font-size: 18px;
+  padding: 20px 30px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: 500ms ease-in-out;
+  background-color: white;
+  z-index:1
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+.Menu a:hover {
+  background-color: #61dafb;
+  transition-duration: 300ms;
+  box-shadow: 2px 2px 4px #61dafb;
+}
+.BlockPage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 100vh;
+  z-index: 2;
+  position: auto;
+}
+#Portfolio {
+  height: auto !important;
+}
+h1 {
+  font-size: 50px;
+  padding-top: 14vh;
+  text-align: center;
+}
+
+/*@keyframes header_1 {
+  0% {
+    transform: scale(0,0);
+  }
+  100% {
+    transform: scale(1,1)
+  }
+}*/
+.AnhDang {
+  width: 40vh;
+  height: 40vh;
+  animation: header_1 1s ease;
+  margin: 3vh;
+}
+.icon {
+  text-align: center;
+  animation: header_1 1s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4vh;
+}
+.bi {
+  color: white;
+  transition: 150ms ease-in-out;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+.bi-download {
+  padding-left: 1.5px;
+}
+.bi:hover {
+  color: black;
+  cursor: pointer;
+  transition-duration: 150ms;
+}
+
+.Card {
+  border: 4px dotted white;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  margin-left: 9vh;
+  margin-right: 9vh;
+  width: 43vh;
+  height: 43vh;
+}
+.Card-content {
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-size: 18px;
+}
+h2 {
+  font-size: 45px;
+}
+.Cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.downCV {
+  text-align: center;
+}
+.ContactInfo {
+  border: 4px dotted white;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+@media only screen and (max-width: 1000px) {
+  .Card {
+    border: 4px dotted white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    width: 80vw;
+    height: 43vh;
+  }
+  .Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .BlockPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: auto;
+    z-index: 2;
+    position: auto;
+  }
+  .ContactInfo {
+    border: 4px dotted white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+  .Menu a {
+    font-size: 18px;
+    padding: 17.5px 17.5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: 500ms ease-in-out;
+    background-color: white;
+    z-index:1
+  }
+  #Contact {
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1160px) {
+  .Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Card {
+    border: 4px dotted white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    width: 42vw;
+    height: 45vh;
+  }
+  .BlockPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: auto;
+    z-index: 2;
+    position: auto;
+  }
+  #Contact {
+    height: 100vh;
+  }
+  .ContactInfo {
+    border: 4px dotted white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+  }
+}
+@media only screen and (min-width: 1160px) and (max-width: 1380px) {
+  .Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Card {
+    border: 4px dotted white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    width: 42vw;
+    height: 45vh;
+  }
+  .BlockPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: auto;
+    z-index: 2;
+    position: auto;
+  }
+  #Contact {
+    height: 100vh;
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dangcpr.github.io",
+  "homepage": "https://dangcpr.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,11 +7,20 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.7.2",
+    "file-saver": "^2.0.5",
     "react": "^17.0.2",
+    "react-animation-on-scroll": "^2.1.0",
+    "react-bootstrap-buttons": "^1.0.0",
+    "react-countup": "^6.1.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.2",
     "react-typing-effect": "^2.0.5",
+    "react-vertical-timeline-component": "^3.5.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
